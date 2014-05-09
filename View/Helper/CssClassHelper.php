@@ -6,7 +6,7 @@
  */
 
 App::uses('AppHelper', 'View/Helper');
-App::import('Vendor', 'SlugToCss.Numbertext', array('file' => 'number-text-soros-2013-02-12'.DS.'Numbertext.php'));
+App::import('Vendor', 'CssSafeSlug.Numbertext', array('file' => 'number-text-soros-2013-02-12' . DS . 'Numbertext.php'));
 
 class CssClassHelper extends AppHelper {
 	
