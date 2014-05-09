@@ -1,5 +1,5 @@
 <?php
-App::import('Vendor', 'SlugToCss.number-text-soros-2013-02-12/Soros');
+App::import('Vendor', 'CssSafeSlug.number-text-soros-2013-02-12/Soros');
 if (!class_exists('Soros')) {
 	throw new CakeException(__d('dev', 'Vendor class Soros cannot be found'));
 }
