@@ -1,5 +1,5 @@
 {
-    "name": "ukwm/css-safe-slug",
+    "name": "davidyell/css-safe-slug",
     "description": "Converts a slug into a safe to use css class",
     "authors": [
         {
