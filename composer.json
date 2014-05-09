@@ -1,6 +1,10 @@
 {
     "name": "davidyell/css-safe-slug",
     "description": "Converts a slug into a safe to use css class",
+    "type": "cakephp-plugin",
+    "extra": {
+        "installer-name": "CssSafeSlug"
+    },
     "authors": [
         {
             "name": "David Yell",
@@ -9,6 +13,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-
+        "composer/installers": "~1.0"
     }
 }

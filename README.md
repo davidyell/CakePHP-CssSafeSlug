@@ -10,9 +10,10 @@ Article
   Unsafe css: "99-ways-to-solve-a-puzzle"
   Safe: "ninety-nine-ways-to-solve-a-puzzle"
 ```
-  
 ## Usage
 You will need to put the code in your `app/Plugin/CssSafeSlug`, and load the plugin in your `app/bootstrap.php` using `CakePlugin::load('CssSafeSlug');`.
+
+It is also available on Composer. `composer require davidyell/css-safe-slug`
 
 You can call the helper in your view.
 
@@ -22,3 +23,4 @@ You can call the helper in your view.
 
 ## Handy extras
 I couple this up with the [CakeDC/Utils::Sluggable](https://github.com/CakeDC/utils/blob/master/Model/Behavior/SluggableBehavior.php) behaviour.
+
