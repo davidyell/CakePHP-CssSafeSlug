@@ -7,7 +7,7 @@
 
 App::uses('Controller', 'Controller');
 App::uses('View', 'View');
-App::uses('CssClassHelper', 'SlugToCss.View/Helper');
+App::uses('CssClassHelper', 'CssSafeSlug.View/Helper');
 
 class CssClassHelperTest extends CakeTestCase {
 
@@ -40,7 +40,10 @@ class CssClassHelperTest extends CakeTestCase {
 			array('virgin-mobile', 'virgin-mobile'),
 			array('99-issues', 'ninety-nine-issues'),
 			array('word-and-10', 'word-and-10'),
-			array('two-numbers-5-and-9', 'two-numbers-5-and-9')
+			array('two-numbers-5-and-9', 'two-numbers-5-and-9'),
+			array('2nd-café', 'twond-cafe'),
+			array('the-entrée', 'the-entree'),
+			array('äußerst', 'ausserst')
 		);
 	}
 	
