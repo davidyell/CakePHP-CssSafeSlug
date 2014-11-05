@@ -2,6 +2,8 @@
 
 In most web apps you will be using a slug to uniquely identify an article or item from the database. This gives you a clean way to access the item in the url. However, in CSS classes are not allowed to start with a number. This is a simple helper which will convert any slug which begins with a number into a safe string which can be used for a css class.
 
+Looking for CakePHP 3? Try this, http://github.com/davidyell/CakePHP3-NumbersToWords
+
 ## Example
 ```yml
 Article
