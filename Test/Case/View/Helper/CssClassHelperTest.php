@@ -7,7 +7,7 @@
 
 App::uses('Controller', 'Controller');
 App::uses('View', 'View');
-App::uses('CssClassHelper', 'SlugToCss.View/Helper');
+App::uses('CssClassHelper', 'CssSafeSlug.View/Helper');
 
 class CssClassHelperTest extends CakeTestCase {
 

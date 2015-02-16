@@ -4,6 +4,10 @@ In most web apps you will be using a slug to uniquely identify an article or ite
 
 Looking for CakePHP 3? Try this, http://github.com/davidyell/CakePHP3-NumbersToWords
 
+##Requirements
+* PHP 5.3.0+
+* Intl
+
 ## Example
 ```yml
 Article
